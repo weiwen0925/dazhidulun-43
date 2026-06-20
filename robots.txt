@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://weiwen0925.github.io/dazhidulun-43/sitemap.xml
