@@ -1141,5 +1141,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C43P3:END-->
+<!--WY-C43P4:BEGIN-->
+<style id="wy-c43p4-css">
+.c43p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c43p4-fabbox.show{display:block;}
+.c43p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c43p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c43p4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c43p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c43p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c43p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c43p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c43p4-modal.open{display:flex;}
+.c43p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c43p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c43p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c43p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c43p4-close:hover{background:#e3d5b8;}
+.c43p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c43p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c43p4-tbl th,.c43p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c43p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c43p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c43p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c43p4-tbl b{color:#8b2500;}
+.c43p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c43p4-note b{color:#8b2500;}
+@media(max-width:900px){.c43p4-fabbox{right:14px;}.c43p4-tbl{font-size:11.5px;}.c43p4-card{padding:26px 14px 16px;}}
+</style>
+<div class="c43p4-fabbox" id="c43p4Box"><button class="c43p4-btn" id="c43p4Btn" type="button" aria-label="開啟全景總表"><span class="c43p4-ic">▦</span><span class="c43p4-ls"><span class="c43p4-l1">本品 · 空拳誑小兒</span><span class="c43p4-l2">四階破執 · 學與不可得的悖論</span></span></button></div><div class="c43p4-modal" id="c43p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c43p4-card"><button class="c43p4-close" id="c43p4Close" type="button" aria-label="關閉">×</button><h3>卷四十三·第四品「空拳誑小兒」 · 全景總表</h3><p class="sub">卷四十三・第四品｜學無悖論・四階破執・增益見・名相執・有所得・畢竟空・指月之喻・空拳誑小兒</p><table class="c43p4-tbl"><caption>一、核心悖論與四階破執地圖（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心悖論</td><td>舍利弗直擊修行根柢——若菩薩所學之般若、六度乃至十八不共法皆「不可得」，那麼「學」又如何可能</td></tr><tr><td>世俗預設</td><td>世俗認知裡「學」本是累積與獲取；佛陀卻說所學之法「<b>畢竟清淨、無所有</b>」——張力貫穿全品</td></tr><tr><td>佛陀翻轉</td><td>佛陀不消解「學」，而是重新定義「學」的座標——真正的「得」，嚴格建立在「不可得」的基礎之上</td></tr><tr><td>四階架構</td><td>破凡夫的「增益見」→破學者的「名相執」→破新學菩薩的「有所得」→顯般若的「畢竟空」——四階各有認知對象・核心謬誤・經典隱喻與中觀對治</td></tr><tr><td>空拳誑小兒喻</td><td>凡夫如小兒，見空拳以為有物，實則一無所有——妄執之根的經典隱喻</td></tr></tbody></table><table class="c43p4-tbl"><caption>二、破凡夫增益見與破學者名相執（第一階·第二階）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>第一階謬誤</td><td>凡夫的「增益見」——於「本來無所有」之處，硬生生增添一個「實有」，本體論層次的謬誤</td></tr><tr><td>第一階隱喻</td><td>「<b>空拳誑小兒</b>」——空拳本無一物，小兒卻因誑騙手勢信以為有；凡夫因此被縛於二邊、不出三界</td></tr><tr><td>第二階謬誤</td><td>學者的「名相執」——聞善法、讀經論，卻「著音聲語言，不取聖人意」，把指向實相的言教當成實相本身</td></tr><tr><td>第二階隱喻</td><td>「<b>指月之喻</b>」——手指指向月亮，凡夫卻錯把手指當作月亮本身</td></tr><tr><td>釋疑工具</td><td>以「語言界限矩陣」釐清世俗名言與勝義實相的分際</td></tr><tr><td>逐層遞進</td><td>破了凡夫的「有執」，學者卻將同樣的執取方式轉移到「佛法名相」上，產生更細的第二層病</td></tr></tbody></table><table class="c43p4-tbl"><caption>三、破新學有所得與顯般若畢竟空（第三階·第四階·顯正）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>第三階謬誤</td><td>新學菩薩的「有所得」——聞般若而生「想念分別、尋求欲取」，把般若當成比世間法更高級的「補償物」來追求</td></tr><tr><td>第三階對治</td><td>剖析「得失交易心態」如何使人兩頭皆失，以「破四句」掃除對「空」本身的實體化妄執</td></tr><tr><td>第四階顯正</td><td>佛陀以範式轉移正面回答悖論——菩薩學般若波羅蜜時「<b>不見般若波羅蜜</b>」，真正的「得」恰恰建立在「不可得」的基礎之上</td></tr><tr><td>顯正核心</td><td>「學→無所見」的翻轉——「不見三昧」如何能所雙亡；「不見」是般若智慧的最高體現（而非無知）</td></tr><tr><td>譬喻收束</td><td>以「∞」之喻消融全品的悖論——學與不可得並非矛盾，而是同一枚硬幣的兩面</td></tr><tr><td>總攝歸趣</td><td>外行六度萬行，內不著六度萬行；以不可得故，得薩婆若——診斷總矩陣與實修心法總攝全局</td></tr></tbody></table><p class="c43p4-note">本品從舍利弗一記直擊根柢的詰問出發——「學」的對象若畢竟清淨無所有，「學」本身如何可能成立？龍樹菩薩不迴避此一悖論，反而將其展開為一套精密的「四階破執」體系：先破凡夫對「有」的增益見（空拳誑小兒），次破學者對「名」的執取（指月之喻錯把手指當月亮），再破新學菩薩對「得」的交易心態（破四句掃除空執），終顯般若的「畢竟空」——「不見般若波羅蜜」恰是般若最高的體現，而非無知。四階環環相扣，最終收攝於「<b>外行六度萬行、內不著六度萬行，以不可得故得薩婆若</b>」的中道心要——「學」與「不可得」原是同一枚硬幣的兩面，絕非彼此矛盾。</p></div></div>
+<script id="wy-c43p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c43p4Btn"),BOX=document.getElementById("c43p4Box"),MODAL=document.getElementById("c43p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c43p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C43P4:END-->
 </body>
 </html>
