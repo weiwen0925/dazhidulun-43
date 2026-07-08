@@ -982,5 +982,58 @@ setTimeout(fabShow,600);setTimeout(fabShow,2000);
 })();
 </script>
 <!--WY-SEARCH:END-->
+<!--WY-C43P1:BEGIN-->
+<style id="wy-c43p1-css">
+.c43p1-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c43p1-fabbox.show{display:block;}
+.c43p1-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c43p1-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c43p1-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c43p1-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c43p1-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c43p1-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c43p1-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c43p1-modal.open{display:flex;}
+.c43p1-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c43p1-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c43p1-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c43p1-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c43p1-close:hover{background:#e3d5b8;}
+.c43p1-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c43p1-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c43p1-tbl th,.c43p1-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c43p1-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c43p1-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c43p1-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c43p1-tbl b{color:#8b2500;}
+.c43p1-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c43p1-note b{color:#8b2500;}
+@media(max-width:900px){.c43p1-fabbox{right:14px;}.c43p1-tbl{font-size:11.5px;}.c43p1-card{padding:26px 14px 16px;}}
+</style>
+<div class="c43p1-fabbox" id="c43p1Box"><button class="c43p1-btn" id="c43p1Btn" type="button" aria-label="開啟全景總表"><span class="c43p1-ic">▦</span><span class="c43p1-ls"><span class="c43p1-l1">本品 · 釋集散品第九下</span><span class="c43p1-l2">四柱哲學體系 · 體用教行</span></span></button></div><div class="c43p1-modal" id="c43p1Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c43p1-card"><button class="c43p1-close" id="c43p1Close" type="button" aria-label="關閉">×</button><h3>卷四十三·第一品 釋集散品第九下 · 全景總表</h3><p class="sub">卷四十三・第一品｜四柱哲學體系・體用教行・般若無所有不可得・離二邊行中道・十八空・無住處涅槃</p><table class="c43p1-tbl"><caption>一、核心命題與四柱架構（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>焦點轉移</td><td>從〈集散品〉上半的「謙讓門」「不住門」（主觀態度）轉向下半「客觀本體」——直接追問「究竟何者是般若波羅蜜」</td></tr><tr><td>經文核心</td><td>須菩提以「<b>無所有、不可得</b>」總攝般若及一切法之相；離性離相故不離般若行；諸法不生不成就，三種清淨常得化生</td></tr><tr><td>四柱架構</td><td>體（何者是般若——本體論）＋用（是誰般若——認識論二諦歸屬）＋教（何以先說波羅蜜——教學次第）＋行（何用化生——實踐目的論）</td></tr><tr><td>主線貫穿</td><td>般若非修行者所建立的境界，而是本來如是的客觀實相；觀修關鍵不在選邊，而在破除對立性本身</td></tr><tr><td>終極歸趣</td><td>以<b>無所得故，得無所礙</b>——菩薩不住生死、不住涅槃，十方遊戲神通而無掛礙</td></tr></tbody></table><table class="c43p1-tbl"><caption>二、體與用·般若之體用二柱（前二柱）</caption><thead><tr><th>柱</th><th>內容</th></tr></thead><tbody><tr><td>體·般若之體</td><td>一切諸法實相——不可破、不可壞，超越時空、非造作所成</td></tr><tr><td>體·核心心法</td><td>離二邊、行中道——以中觀三階梯層層破執</td></tr><tr><td>體·十八空印證</td><td>以十八空與三大隱喻說明般若終究「無所有、不可得」</td></tr><tr><td>用·名義釋疑</td><td>般若即諸智慧中第一；舍利弗疑：既是客觀實相，何以又稱主觀智慧第一</td></tr><tr><td>用·因果互攝</td><td>論主以「因中說果、果中說因」與「入不二法門」化解客觀實相與主觀智慧的張力</td></tr><tr><td>用·二諦歸屬</td><td>般若波羅蜜不屬凡夫、不屬二乘、不屬佛，但屬菩薩——精準的二諦定位</td></tr></tbody></table><table class="c43p1-tbl"><caption>三、教與行·教學次第與化生因果（後二柱·合題）</caption><thead><tr><th>柱</th><th>內容</th></tr></thead><tbody><tr><td>教·次第倒置</td><td>經中通例先說五蘊、後說一切種智，此處卻先說六波羅蜜——表面看似違例</td></tr><tr><td>教·難易邏輯</td><td>以「觀空難易度」與「法門同類項」歸納——先立最易觀空之利器（般若），再破最堅固之妄執（五蘊）</td></tr><tr><td>教·觀法次第</td><td>由此引出「<b>先空能觀、後空所觀</b>」與「離性觀」的核心操作</td></tr><tr><td>行·因果轉換</td><td>觀空非止於認知，而引發生命本質的徹底轉換——證無生而心清淨身清淨，終至受法性生身、常得化生</td></tr><tr><td>行·留惑潤生</td><td>二乘詰問菩薩何以保留化生之身，論主以「留惑潤生」二因緣與方便力（Upāya）回應</td></tr><tr><td>行·圓滿中道</td><td>匯歸「無住處涅槃」——以無所得故得無所礙，圓滿中道</td></tr></tbody></table><p class="c43p1-note">本品以一連串問答，將〈集散品〉下半推上一座嚴密的「四柱殿堂」：體（般若即諸法實相）、用（般若之名義與二諦歸屬）、教（教學次第的難易邏輯）、行（觀空到化生的因果鏈）。四柱環環相扣，最終收攝於「<b>以無所得故，得無所礙</b>」的般若圓成——般若不是修行者選擇的一邊，而是破除對立性本身所徹見的本來實相。菩薩因此得以不住生死、不住涅槃，遊戲神通而毫無掛礙，此即體用教行四柱所共同指向的中道極致。</p></div></div>
+<script id="wy-c43p1-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c43p1Btn"),BOX=document.getElementById("c43p1Box"),MODAL=document.getElementById("c43p1Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=0;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c43p1Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C43P1:END-->
 </body>
 </html>
