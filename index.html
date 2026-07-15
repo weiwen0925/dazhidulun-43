@@ -1660,5 +1660,61 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH43P2:END-->
+<!--WY-BH43P3:BEGIN-->
+<style id="wy-bh43p3-css">
+.bh43p3-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh43p3-fabbox.show{display:block;}
+.bh43p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh43p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh43p3-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh43p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh43p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh43p3-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh43p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh43p3-modal.open{display:flex;}
+.bh43p3-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh43p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh43p3-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh43p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh43p3-close:hover{background:#dde2e6;}
+.bh43p3-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh43p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh43p3-tbl th,.bh43p3-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh43p3-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh43p3-tbl thead th:nth-child(1){width:32%;}.bh43p3-tbl thead th:nth-child(2){width:41%;}.bh43p3-tbl thead th:nth-child(3){width:27%;}
+.bh43p3-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh43p3-guan{background:#eef2f5;color:#37505f;}
+.bh43p3-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh43p3-tbl tbody tr:nth-child(even) td.bh43p3-guan{background:#e8eef2;}
+.bh43p3-tbl b{color:#8b2500;}
+.bh43p3-guan b{color:#2f6b5a;}
+.bh43p3-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh43p3-note b{color:#8b2500;}
+@media(max-width:900px){.bh43p3-fabbox{right:14px;}.bh43p3-tbl{font-size:11px;}.bh43p3-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh43p3-fabbox" id="bh43p3Box"><button class="bh43p3-btn" id="bh43p3Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh43p3-ic">譯</span><span class="bh43p3-ls"><span class="bh43p3-l1">本品 · 原文·白話·中觀</span><span class="bh43p3-l2">白話翻譯表</span></span></button></div><div class="bh43p3-modal" id="bh43p3Modal" role="dialog" aria-modal="true"><div class="bh43p3-card"><button class="bh43p3-close" id="bh43p3Close" type="button" aria-label="關閉">×</button><h3>卷四十三 · 第3品 白話翻譯表（三昧般若菩薩無二）</h3><p class="sub">《大智度論》卷四十三 · 第3品 · 三昧般若菩薩無二 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh43p3-tbl"><caption>三昧般若菩薩無二·原文｜白話翻譯｜中觀概念（共9段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh43p3-src">舍利弗言：「但不離是三昧，令菩薩摩訶薩疾得阿耨多羅三藐三菩提，更有諸餘三昧？」須菩提語舍利弗言：「更有諸餘三昧，菩薩摩訶薩行是三昧，疾得阿耨多羅三藐三菩提。」舍利弗言：「何等三昧，菩薩摩訶薩行是，疾得阿耨多羅三藐三菩提？」</td><td>舍利弗說：『只要不離開這（無所受）三昧，就能令菩薩迅速證得無上正等正覺——那麼還另有其他三昧（也有此效）嗎？』須菩提對舍利弗說：『另有其他種種三昧，菩薩修行它們，也能迅速證得無上正等正覺。』舍利弗說：『是哪些三昧，菩薩修了能迅速證得無上正等正覺呢？』</td><td class="bh43p3-guan"><b>問餘三昧·導入百八</b>——由「不離一三昧速得菩提」進而問有無餘三昧，引出下文首楞嚴等百八三昧的廣說。</td></tr><tr><td class="bh43p3-src">須菩提言：「諸菩薩摩訶薩有三昧名首楞嚴，行是三昧，令菩薩疾得阿耨多羅三藐三菩提；有名寶印三昧、師子遊戲三昧、妙月三昧、月幢相三昧、諸法印三昧、觀頂三昧……（乃至）壞身衰三昧、壞語如虛空三昧、離著如虛空不染三昧。舍利弗！是菩薩摩訶薩行是諸三昧，疾得阿耨多羅三藐三菩提。復有無量阿僧祇三昧門、陀羅尼門，菩薩摩訶薩學是三昧門、陀羅尼門，疾得阿耨多羅三藐三菩提。」</td><td>須菩提說：『菩薩有一種三昧名叫「首楞嚴（健行）」，修它能令菩薩迅速證得無上菩提；還有寶印三昧、師子遊戲三昧、妙月三昧、月幢相三昧、諸法印三昧、觀頂三昧……（乃至）壞身衰三昧、壞語如虛空三昧、離著如虛空不染三昧等等（此處具列百餘種三昧之名）。舍利弗！菩薩修這許多三昧，都能迅速證得無上正等正覺。此外還有無量無數的三昧門、陀羅尼門，菩薩修學這些三昧門、陀羅尼門，也能迅速證得無上正等正覺。』</td><td class="bh43p3-guan"><b>百八三昧·眾流歸海</b>——廣列首楞嚴等百餘三昧及無量陀羅尼門，皆能速趣菩提；顯法門雖多，同歸般若無所得一味，如萬流入海。</td></tr><tr><td class="bh43p3-src">慧命須菩提隨佛心言：「當知是菩薩摩訶薩行是諸三昧者，以為過去諸佛所授記，今現在十方諸佛亦授是菩薩記。是菩薩不見是諸三昧，亦不念是三昧；亦不念：『我當入是三昧，我今入是三昧，我已入是三昧。』是菩薩摩訶薩都無分別念。」舍利弗問須菩提：「菩薩摩訶薩住是諸三昧已，從過去佛授記耶？」須菩提報言：「不也！何以故？般若波羅蜜不異諸三昧，諸三昧不異般若波羅蜜；菩薩不異般若及三昧，般若及三昧不異菩薩；般若即是三昧，三昧即是般若；菩薩即是般若及三昧，般若及三昧即是菩薩。」</td><td>慧命須菩提秉承佛的心意說：『該知道修這許多三昧的菩薩，是過去諸佛所曾授記、現在十方諸佛也正為他授記的。這菩薩並不「見」有這些三昧，也不「念」這些三昧，更不會起念：「我將要入此三昧、我正入此三昧、我已入此三昧。」這菩薩全然沒有分別憶念。』舍利弗問須菩提：『菩薩安住這些三昧後，是從過去佛得授記的嗎？』須菩提回答：『不是的！為什麼？般若不異於諸三昧，諸三昧不異於般若；菩薩不異於般若與三昧，般若與三昧不異於菩薩；般若就是三昧，三昧就是般若；菩薩就是般若與三昧，般若與三昧就是菩薩。』</td><td class="bh43p3-guan"><b>無分別入·三昧般若菩薩不異</b>——菩薩入三昧而不見不念、無我入之想，故蒙授記；並直明般若、三昧、菩薩三者相即不異，遮遣「住相取三昧而得記」的執著。</td></tr><tr><td class="bh43p3-src">舍利弗語須菩提：「若三昧不異菩薩，菩薩不異三昧，三昧即是菩薩，菩薩即是三昧，菩薩云何知一切諸法等三昧？」須菩提言：「若菩薩入是三昧，是時不作是念：『我以是法入是三昧。』以是因緣故，是菩薩於諸三昧不知不念。」舍利弗言：「何以故不知不念？」須菩提言：「諸三昧無所有故，是故菩薩不知不念。」</td><td>舍利弗對須菩提說：『若三昧不異於菩薩、菩薩不異於三昧，三昧就是菩薩、菩薩就是三昧，那菩薩又怎能了知「一切諸法平等」的三昧呢（豈不是無人能知）？』須菩提說：『菩薩進入這三昧時，並不起念：「我是用某某法而入此三昧的。」正因如此，這菩薩對種種三昧是「不知、不念」的。』舍利弗說：『為什麼不知不念？』須菩提說：『因為種種三昧本來無所有，所以菩薩不知不念。』</td><td class="bh43p3-guan"><b>無所有故不知不念</b>——三昧無所有故無「以某法入」之念，能所俱泯方名知「諸法等三昧」；顯真知即無知，離能所的無分別智。</td></tr><tr><td class="bh43p3-src">爾時，佛讚言：「善哉！善哉！須菩提！如我說汝行無諍三昧第一，與此義相應。菩薩摩訶薩應如是學般若波羅蜜、禪波羅蜜、毘梨耶波羅蜜、羼提波羅蜜、尸羅波羅蜜、檀波羅蜜；四念處乃至十八不共法，亦應如是學！」</td><td>這時佛讚歎說：『好極了，好極了，須菩提！正如我曾說你「修無諍三昧第一」，你這番話與那境界正相契合。菩薩就應該這樣修學般若、禪定、精進、忍辱、持戒、布施六波羅蜜；乃至四念處直到十八不共法，也都應該這樣（以無所得心）修學！』</td><td class="bh43p3-guan"><b>無諍相應·例通諸行</b>——佛以「無諍第一」印可須菩提之說，並將此無所得學法遍通六度與道品；顯無諍即無所得，是一切修學的總則。</td></tr><tr><td class="bh43p3-src">問曰：如佛說涅槃一道，所謂空、無相、無作，舍利弗何以更問「有餘三昧令菩薩疾得佛不」？答曰：未近涅槃時，多有餘道；近涅槃時，惟有一道：空、無相、無作；諸餘三昧，皆入此三解脫門。譬如大城，多有諸門，皆得入城；又如眾川萬流皆歸於海。何等餘三昧？所謂首楞嚴三昧等諸三昧，〈摩訶衍品〉中佛自說；有深難解者，彼中當說。</td><td>問：佛既說涅槃只有一條道路，也就是空、無相、無作（三解脫門），舍利弗為何還要再問『有沒有其他三昧能令菩薩迅速成佛』？答：在還沒接近涅槃時，尚有許多不同的路徑；一旦臨近涅槃，就只有一條路：空、無相、無作；其餘種種三昧，最終都匯入這三解脫門。譬如一座大城有許多城門，從哪一門都能進城；又如千川萬流最後全歸入大海。那些其餘的三昧是什麼呢？就是首楞嚴三昧等種種三昧，在〈摩訶衍品〉中佛會親自解說；其中特別深奧難解的，也留待那裡再說。</td><td class="bh43p3-guan"><b>多門歸一·眾流入海</b>——遠涅槃則多道、近涅槃唯三解脫門，餘三昧皆入此門；以多門入城、萬流歸海為喻，顯法門無量而同歸空無相無作一味。</td></tr><tr><td class="bh43p3-src">若菩薩能行是百八三昧等諸陀羅尼門，十方諸佛皆與授記。所以者何？是菩薩雖得是諸三昧，實無諸憶想分別我心故，亦不作是念：「我當入是三昧，今入、已入，我當住是三昧，是我三昧。」以是心清淨微妙法不著故，諸佛授記。</td><td>若菩薩能修這百八三昧等種種陀羅尼門，十方諸佛都會為他授記。為什麼？因為這菩薩雖然證得這些三昧，卻實在沒有任何憶想分別的『我』心，也不起念：『我將入此三昧、正入、已入，我要安住此三昧，這是我的三昧。』正因這樣心地清淨、對微妙之法毫不執著，所以諸佛為他授記。</td><td class="bh43p3-guan"><b>無我不著·故蒙授記</b>——得三昧而無「我入我住」之憶想執著，心淨不著微妙法，方是授記之因；顯授記所印者正是無所得無我之心。</td></tr><tr><td class="bh43p3-src">爾時，舍利弗還以空智慧難須菩提言：「菩薩住是三昧，取是三昧相，得授記耶？」須菩提言：「不也！何以故？三事不異故：般若不異三昧，三昧不異般若；般若不異菩薩、三昧，菩薩、三昧不異般若；般若、三昧即是菩薩，菩薩即是般若、三昧。若三昧、菩薩異者，諸佛授其記；不異故，無授記。」舍利弗復問：「若爾者，三昧及一切法平等不異？」須菩提言：「諸菩薩有諸法等三昧，入是三昧中，諸法無異。」</td><td>這時舍利弗又以『空』的智慧來反問須菩提：『菩薩安住這三昧、取著這三昧之相，才得授記的嗎？』須菩提說：『不是的。為什麼？因為般若、三昧、菩薩三者不異：般若不異三昧，三昧不異般若；般若不異菩薩與三昧，菩薩與三昧不異般若；般若、三昧就是菩薩，菩薩就是般若、三昧。若三昧與菩薩是相異的（有能授所授之別），諸佛才好授記；正因彼此不異，實無一個可授記者。』舍利弗又問：『若是這樣，那三昧與一切法都平等不異了？』須菩提說：『菩薩有一種「諸法等三昧」，進入這三昧當中，一切法都無有差異。』</td><td class="bh43p3-guan"><b>三事不異·平等無記可授</b>——般若、三昧、菩薩相即不異，能所泯絕故實無授記之事；入諸法等三昧則萬法一如，顯畢竟空中平等不二。</td></tr><tr><td class="bh43p3-src">復次，如先說：於諸三昧不作憶想分別覺與不覺，諸三昧自性無所有故，菩薩不知不念。佛以須菩提自未得是三昧，而善說菩薩微妙三昧、陀羅尼，般若波羅蜜中不念不著，是故讚言：「善哉！我說汝得無諍三昧第一，如我所讚不虛。」</td><td>再者，如前面所說：菩薩對種種三昧不起憶想分別，無論『覺知』或『不覺知』，都因三昧的自性本來無所有，所以菩薩不知不念。佛因為須菩提自己其實尚未證得這（菩薩的微妙）三昧，卻能善巧地解說菩薩的微妙三昧、陀羅尼，於般若之中不憶念、不執著，所以讚歎說：『好極了！我說你證得「無諍三昧第一」，正如我所讚的一樣，真實不虛。』</td><td class="bh43p3-guan"><b>自性無所有·善說得讚</b>——三昧自性無所有故不知不念；須菩提雖未得而善說不著，契無諍之旨，故佛印可讚歎，總收全品無所得義。</td></tr></tbody></table><p class="bh43p3-note">本表為卷四十三第3品「三昧般若菩薩無二」的原文·白話·中觀三欄對照（依實際位移順序收錄，經在最頂、問在答前、有問必有答）：本品廣列首楞嚴等百八三昧及無量陀羅尼門，皆歸般若無所得一味，如萬流入海；直明「般若、三昧、菩薩三者相即不異」，菩薩入三昧而不見不念、無「我入我住」之想，能所俱泯故實無授記可授、入「諸法等三昧」則萬法一如；佛以「無諍三昧第一」印可須菩提，並將此無所得學法遍通六度與道品。原文取自 dazhidulun-43 站內 L1 加密原典第3品，已去除重複節錄與編者附加文字。</p></div></div>
+<script id="wy-bh43p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh43p3Btn"),BOX=document.getElementById("bh43p3Box"),MODAL=document.getElementById("bh43p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+var CBOX=document.getElementById("c43p3Box");
+function place(){
+  var b=null;
+  if(CBOX){var st=getComputedStyle(CBOX);var r=CBOX.getBoundingClientRect();if(st.position==="fixed"&&r.height>0&&st.display!=="none")b=Math.round(window.innerHeight-r.top)+8;}
+  if(b===null){var eb=document.querySelector(".wy-ebox");if(eb){var er=eb.getBoundingClientRect();if(er.height>4)b=Math.round(window.innerHeight-er.top)+8;}}
+  if(b===null)b=150;
+  BOX.style.bottom=b+"px"; /*BHPLACE*/
+}
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh43p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH43P3:END-->
 </body>
 </html>
